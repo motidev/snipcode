@@ -13,6 +13,7 @@ const CodeEditor: FC<CodeEditorProps> = (props) => {
     const {code, onChange, theme, language} = props;
     return(
         <div className="h-full overflow-auto">
+            <h1 className='font-bold'>Code</h1>
             <CodeMirror className="text-sm"
                 value={code}
                 theme={theme}
