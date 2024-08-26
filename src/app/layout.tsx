@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "SnapCode",
+  title: "snipcode",
   description: "Test your code easily",
 };
 
