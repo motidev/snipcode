@@ -3,6 +3,7 @@ export const metadata = {
   description: 'Test your code',
 }
 import '@/styles/globals.css'
+import Footer from './components/Footer'
 
 export default function RootLayout({children}: {children: React.ReactNode }) {
   return (
@@ -10,7 +11,10 @@ export default function RootLayout({children}: {children: React.ReactNode }) {
       <head>
       <link rel="icon" href="./favicon.ico" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
