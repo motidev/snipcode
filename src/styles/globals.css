@@ -4,14 +4,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #1e1e1e;
+  --background: #232a2f;
   --color-letter: rgb(235, 232, 232);
 }
 
-* { 
+body { 
   font-family: "Poppins", sans-serif;
   color: var(--color-letter);
-  background: var(--background);
+  background-color: var(--background);
   font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
