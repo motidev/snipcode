@@ -4,7 +4,7 @@ import CodeEditor from '../components/CodeEditor';
 import { javascript } from '@codemirror/lang-javascript';
 import runjavascript from '../runner/Javascript';
 import ResultView from '../components/ResultView';
-import { xcodeDark } from '@uiw/codemirror-theme-xcode';
+import { copilot } from '@uiw/codemirror-theme-copilot';
 
 function Page() {
   const [code, setCode] = useState<string>('console.log("Welcome to SnipCode!!")');
@@ -30,7 +30,7 @@ function Page() {
           <CodeEditor
             code={code}
             onChange={setCode}
-            theme={xcodeDark}
+            theme={copilot}
             language={[javascript()]}
           />
         </div>
