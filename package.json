@@ -11,6 +11,8 @@
   "dependencies": {
     "@codemirror/lang-javascript": "^6.2.2",
     "@uiw/codemirror-theme-copilot": "^4.23.0",
+    "@uiw/codemirror-theme-github": "^4.23.0",
+    "@uiw/codemirror-theme-xcode": "^4.23.0",
     "@uiw/react-codemirror": "^4.23.0",
     "next": "14.2.6",
     "react": "^18.3.1",
