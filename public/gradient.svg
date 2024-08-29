@@ -11,9 +11,9 @@
 <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_404_2"/>
 </filter>
 <linearGradient id="paint0_linear_404_2" x1="3201.77" y1="802.42" x2="2116.86" y2="-171.011" gradientUnits="userSpaceOnUse">
-<stop stop-color="#8B0000"/>
-<stop offset="0.40625" stop-color="#FF6347"/>
-<stop offset="0.898799" stop-color="#B22222"/>
+<stop stop-color="#8B0000" stop-opacity="0.4"/>
+<stop offset="0.40625" stop-color="#FF6347" stop-opacity="0.4"/>
+<stop offset="0.898799" stop-color="#B22222" stop-opacity="0.4"/>
 </linearGradient>
 </defs>
 </svg>
