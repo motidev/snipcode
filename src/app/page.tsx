@@ -15,11 +15,10 @@ function HomePage() {
             <p>Supports multiple languages with no installations needed.</p>
             <p>Plus, it's your personal library for storing and sharing code snippets.</p>
         </div>
-
-
-
+        <div className='mt-10'>
+          <Link className="bg-red-900 text-red-500 hover:bg-red-800 hover:text-white bg-opacity-30 p-1 rounded-md text-base" href='https://snipcode.motidev.com/codeeditor'>Click here to test your code 💻</Link>
+        </div>
       </div>
-
     </div>
   );
 }
