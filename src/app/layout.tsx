@@ -12,7 +12,7 @@ export default function RootLayout({children}: {children: React.ReactNode }) {
       <head>
         <link rel="icon" href="./favicon.ico" />
       </head>
-      <body className='h-full antialiased bg-top bg-no-repeat bg-zinc-900 bg-degree'>
+      <body className='h-full antialiased bg-top bg-no-repeat bg-zinc-900'>
         <Header />
         {children}
         <Footer />
